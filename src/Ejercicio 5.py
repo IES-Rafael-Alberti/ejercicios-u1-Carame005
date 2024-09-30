@@ -1,0 +1,5 @@
+p=input("Dime un producto")
+s=float(input(f"Dame el precio sin IVA de{p}"))
+i=float(input("Dame el porcentaje de IVA"))
+IVA=s+(s * i / 100)
+print(f"El precio final es {IVA}")

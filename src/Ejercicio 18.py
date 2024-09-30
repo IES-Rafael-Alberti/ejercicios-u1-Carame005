@@ -1,0 +1,6 @@
+n=input("Dime tu nombre: ")
+n_upper=n.upper()
+n_lower=n.lower()
+print(n_upper)
+print(n_lower)
+print(n_upper[0][0][0])
