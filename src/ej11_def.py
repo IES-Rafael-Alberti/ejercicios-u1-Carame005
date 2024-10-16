@@ -1,7 +1,11 @@
-def procesar_numero(numero):
+def procesar_numero(numero)-> int:
     resultado = numero ** 2
-    return f"El cuadrado de {numero} es {resultado}."
+    return resultado
 
-numero_ingresado = int(input("Ingrese un número: "))
-resultado = procesar_numero(numero_ingresado)
-print(resultado)
+def main():
+    numero_ingresado = int(input("Ingrese un número: "))
+    resultado = procesar_numero(numero_ingresado)
+    print(resultado)
+
+if __name__ == "__main__":
+    main()

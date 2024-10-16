@@ -1,8 +1,8 @@
 def comparador(n1, n2):
     if n1 > n2:
-        return f"{n1} es mayor que {n2}"
+        return n1 
     elif n1 < n2:
-        return f"{n2} es mayor que {n1}"
+        return n2
     
 def main():
     n1=int(input("Ingrese el primer número: "))
